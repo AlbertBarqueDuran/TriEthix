@@ -1,0 +1,1766 @@
+{
+  "models_raw": [
+    {
+      "label": "gpt41",
+      "model": "gpt41",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 16,
+        "B": 14,
+        "C": 0,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.5333333333333333,
+        "deontology": 0.4666666666666667,
+        "consequentialism": 0.0
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "gpt41_2",
+      "model": "openai:gpt-4.1",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 13,
+        "B": 15,
+        "C": 2,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.43333333333333335,
+        "deontology": 0.5,
+        "consequentialism": 0.06666666666666667
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "gpt41_3",
+      "model": "openai:gpt-4.1",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 14,
+        "B": 14,
+        "C": 2,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.4666666666666667,
+        "deontology": 0.4666666666666667,
+        "consequentialism": 0.06666666666666667
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "gpt5",
+      "model": "gpt5",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 17,
+        "C": 13,
+        "KEEP": 28,
+        "SWITCH": 2
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.5666666666666667,
+        "consequentialism": 0.43333333333333335
+      },
+      "flip_rate": 0.06666666666666667
+    },
+    {
+      "label": "gpt5_2",
+      "model": "openai:gpt-5",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 16,
+        "C": 14,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.5333333333333333,
+        "consequentialism": 0.4666666666666667
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "gpt5_3",
+      "model": "openai:gpt-5",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 17,
+        "C": 13,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.5666666666666667,
+        "consequentialism": 0.43333333333333335
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "gpt5nano",
+      "model": "gpt5nano",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 9,
+        "B": 13,
+        "C": 8,
+        "KEEP": 7,
+        "SWITCH": 23
+      },
+      "weights": {
+        "virtue": 0.3,
+        "deontology": 0.43333333333333335,
+        "consequentialism": 0.26666666666666666
+      },
+      "flip_rate": 0.7666666666666667
+    },
+    {
+      "label": "gpt5nano_2",
+      "model": "openai:gpt-5-nano",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 11,
+        "B": 11,
+        "C": 8,
+        "KEEP": 8,
+        "SWITCH": 22
+      },
+      "weights": {
+        "virtue": 0.36666666666666664,
+        "deontology": 0.36666666666666664,
+        "consequentialism": 0.26666666666666666
+      },
+      "flip_rate": 0.7333333333333333
+    },
+    {
+      "label": "gpt5nano_3",
+      "model": "openai:gpt-5-nano",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 14,
+        "B": 10,
+        "C": 6,
+        "KEEP": 11,
+        "SWITCH": 19
+      },
+      "weights": {
+        "virtue": 0.4666666666666667,
+        "deontology": 0.3333333333333333,
+        "consequentialism": 0.2
+      },
+      "flip_rate": 0.6333333333333333
+    },
+    {
+      "label": "gpt5mini",
+      "model": "gpt5mini",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 3,
+        "B": 10,
+        "C": 17,
+        "KEEP": 17,
+        "SWITCH": 13
+      },
+      "weights": {
+        "virtue": 0.1,
+        "deontology": 0.3333333333333333,
+        "consequentialism": 0.5666666666666667
+      },
+      "flip_rate": 0.43333333333333335
+    },
+    {
+      "label": "gpt5mini_2",
+      "model": "openai:gpt-5-mini",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 5,
+        "B": 10,
+        "C": 15,
+        "KEEP": 17,
+        "SWITCH": 13
+      },
+      "weights": {
+        "virtue": 0.16666666666666666,
+        "deontology": 0.3333333333333333,
+        "consequentialism": 0.5
+      },
+      "flip_rate": 0.43333333333333335
+    },
+    {
+      "label": "gpt5mini_3",
+      "model": "openai:gpt-5-mini",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 4,
+        "B": 11,
+        "C": 15,
+        "KEEP": 19,
+        "SWITCH": 11
+      },
+      "weights": {
+        "virtue": 0.13333333333333333,
+        "deontology": 0.36666666666666664,
+        "consequentialism": 0.5
+      },
+      "flip_rate": 0.36666666666666664
+    },
+    {
+      "label": "o3",
+      "model": "o3",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 2,
+        "B": 20,
+        "C": 8,
+        "KEEP": 29,
+        "SWITCH": 1
+      },
+      "weights": {
+        "virtue": 0.06666666666666667,
+        "deontology": 0.6666666666666666,
+        "consequentialism": 0.26666666666666666
+      },
+      "flip_rate": 0.03333333333333333
+    },
+    {
+      "label": "o3_2",
+      "model": "openai:o3",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 4,
+        "B": 22,
+        "C": 4,
+        "KEEP": 29,
+        "SWITCH": 1
+      },
+      "weights": {
+        "virtue": 0.13333333333333333,
+        "deontology": 0.7333333333333333,
+        "consequentialism": 0.13333333333333333
+      },
+      "flip_rate": 0.03333333333333333
+    },
+    {
+      "label": "o3_3",
+      "model": "openai:o3",
+      "family": "openai",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 22,
+        "C": 8,
+        "KEEP": 29,
+        "SWITCH": 1
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.7333333333333333,
+        "consequentialism": 0.26666666666666666
+      },
+      "flip_rate": 0.03333333333333333
+    },
+    {
+      "label": "grok3",
+      "model": "grok3",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 11,
+        "B": 14,
+        "C": 5,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.36666666666666664,
+        "deontology": 0.4666666666666667,
+        "consequentialism": 0.16666666666666666
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "grok3_2",
+      "model": "grok:grok-3",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 15,
+        "B": 10,
+        "C": 5,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.5,
+        "deontology": 0.3333333333333333,
+        "consequentialism": 0.16666666666666666
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "grok3_3",
+      "model": "grok:grok-3",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 14,
+        "B": 11,
+        "C": 5,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.4666666666666667,
+        "deontology": 0.36666666666666664,
+        "consequentialism": 0.16666666666666666
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "grok3mini",
+      "model": "grok3mini",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 3,
+        "B": 26,
+        "C": 1,
+        "KEEP": 27,
+        "SWITCH": 3
+      },
+      "weights": {
+        "virtue": 0.1,
+        "deontology": 0.8666666666666667,
+        "consequentialism": 0.03333333333333333
+      },
+      "flip_rate": 0.1
+    },
+    {
+      "label": "grok3mini_2",
+      "model": "grok:grok-3-mini",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 26,
+        "C": 4,
+        "KEEP": 28,
+        "SWITCH": 2
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.8666666666666667,
+        "consequentialism": 0.13333333333333333
+      },
+      "flip_rate": 0.06666666666666667
+    },
+    {
+      "label": "grok3mini_3",
+      "model": "grok:grok-3-mini",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 27,
+        "C": 3,
+        "KEEP": 27,
+        "SWITCH": 3
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.9,
+        "consequentialism": 0.1
+      },
+      "flip_rate": 0.1
+    },
+    {
+      "label": "grok4fastnonreasoning",
+      "model": "grok4fastnonreasoning",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 4,
+        "B": 7,
+        "C": 19,
+        "KEEP": 20,
+        "SWITCH": 10
+      },
+      "weights": {
+        "virtue": 0.13333333333333333,
+        "deontology": 0.23333333333333334,
+        "consequentialism": 0.6333333333333333
+      },
+      "flip_rate": 0.3333333333333333
+    },
+    {
+      "label": "grok4fastnonreasoning_2",
+      "model": "grok:grok-4-fast-non-reasoning",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 4,
+        "B": 7,
+        "C": 19,
+        "KEEP": 19,
+        "SWITCH": 11
+      },
+      "weights": {
+        "virtue": 0.13333333333333333,
+        "deontology": 0.23333333333333334,
+        "consequentialism": 0.6333333333333333
+      },
+      "flip_rate": 0.36666666666666664
+    },
+    {
+      "label": "grok4fastnonreasoning_3",
+      "model": "grok:grok-4-fast-non-reasoning",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 5,
+        "B": 8,
+        "C": 17,
+        "KEEP": 26,
+        "SWITCH": 4
+      },
+      "weights": {
+        "virtue": 0.16666666666666666,
+        "deontology": 0.26666666666666666,
+        "consequentialism": 0.5666666666666667
+      },
+      "flip_rate": 0.13333333333333333
+    },
+    {
+      "label": "grok4fastreasoning",
+      "model": "grok4fastreasoning",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 1,
+        "B": 16,
+        "C": 13,
+        "KEEP": 27,
+        "SWITCH": 3
+      },
+      "weights": {
+        "virtue": 0.03333333333333333,
+        "deontology": 0.5333333333333333,
+        "consequentialism": 0.43333333333333335
+      },
+      "flip_rate": 0.1
+    },
+    {
+      "label": "grok4fastreasoning_2",
+      "model": "grok:grok-4-fast-reasoning",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 1,
+        "B": 22,
+        "C": 7,
+        "KEEP": 29,
+        "SWITCH": 1
+      },
+      "weights": {
+        "virtue": 0.03333333333333333,
+        "deontology": 0.7333333333333333,
+        "consequentialism": 0.23333333333333334
+      },
+      "flip_rate": 0.03333333333333333
+    },
+    {
+      "label": "grok4fastreasoning_3",
+      "model": "grok:grok-4-fast-reasoning",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 21,
+        "C": 9,
+        "KEEP": 29,
+        "SWITCH": 1
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.7,
+        "consequentialism": 0.3
+      },
+      "flip_rate": 0.03333333333333333
+    },
+    {
+      "label": "grok4",
+      "model": "grok4",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 29,
+        "C": 1,
+        "KEEP": 29,
+        "SWITCH": 1
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.9666666666666667,
+        "consequentialism": 0.03333333333333333
+      },
+      "flip_rate": 0.03333333333333333
+    },
+    {
+      "label": "grok4_2",
+      "model": "grok:grok-4-0709",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 30,
+        "C": 0,
+        "KEEP": 29,
+        "SWITCH": 1
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 1.0,
+        "consequentialism": 0.0
+      },
+      "flip_rate": 0.03333333333333333
+    },
+    {
+      "label": "grok4_3",
+      "model": "grok:grok-4-0709",
+      "family": "grok",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 28,
+        "C": 2,
+        "KEEP": 29,
+        "SWITCH": 1
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.9333333333333333,
+        "consequentialism": 0.06666666666666667
+      },
+      "flip_rate": 0.03333333333333333
+    },
+    {
+      "label": "gemini2flash",
+      "model": "gemini2flash",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 5,
+        "B": 16,
+        "C": 9,
+        "KEEP": 28,
+        "SWITCH": 2
+      },
+      "weights": {
+        "virtue": 0.16666666666666666,
+        "deontology": 0.5333333333333333,
+        "consequentialism": 0.3
+      },
+      "flip_rate": 0.06666666666666667
+    },
+    {
+      "label": "gemini2flash_2",
+      "model": "gemini:gemini-2.0-flash",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 5,
+        "B": 15,
+        "C": 10,
+        "KEEP": 27,
+        "SWITCH": 3
+      },
+      "weights": {
+        "virtue": 0.16666666666666666,
+        "deontology": 0.5,
+        "consequentialism": 0.3333333333333333
+      },
+      "flip_rate": 0.1
+    },
+    {
+      "label": "gemini2flash_3",
+      "model": "gemini:gemini-2.0-flash",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 5,
+        "B": 16,
+        "C": 9,
+        "KEEP": 27,
+        "SWITCH": 3
+      },
+      "weights": {
+        "virtue": 0.16666666666666666,
+        "deontology": 0.5333333333333333,
+        "consequentialism": 0.3
+      },
+      "flip_rate": 0.1
+    },
+    {
+      "label": "gemini25flashlite",
+      "model": "gemini25flashlite",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 13,
+        "B": 10,
+        "C": 7,
+        "KEEP": 17,
+        "SWITCH": 13
+      },
+      "weights": {
+        "virtue": 0.43333333333333335,
+        "deontology": 0.3333333333333333,
+        "consequentialism": 0.23333333333333334
+      },
+      "flip_rate": 0.43333333333333335
+    },
+    {
+      "label": "gemini25flashlite_2",
+      "model": "gemini:gemini-2.5-flash-lite",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 13,
+        "B": 11,
+        "C": 6,
+        "KEEP": 14,
+        "SWITCH": 16
+      },
+      "weights": {
+        "virtue": 0.43333333333333335,
+        "deontology": 0.36666666666666664,
+        "consequentialism": 0.2
+      },
+      "flip_rate": 0.5333333333333333
+    },
+    {
+      "label": "gemini25flashlite_3",
+      "model": "gemini:gemini-2.5-flash-lite",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 9,
+        "B": 12,
+        "C": 9,
+        "KEEP": 19,
+        "SWITCH": 11
+      },
+      "weights": {
+        "virtue": 0.3,
+        "deontology": 0.4,
+        "consequentialism": 0.3
+      },
+      "flip_rate": 0.36666666666666664
+    },
+    {
+      "label": "gemini25pro",
+      "model": "gemini25pro",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 15,
+        "C": 15,
+        "KEEP": 20,
+        "SWITCH": 10
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.5,
+        "consequentialism": 0.5
+      },
+      "flip_rate": 0.3333333333333333
+    },
+    {
+      "label": "gemini25pro_2",
+      "model": "gemini:gemini-2.5-pro",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 1,
+        "B": 15,
+        "C": 14,
+        "KEEP": 17,
+        "SWITCH": 13
+      },
+      "weights": {
+        "virtue": 0.03333333333333333,
+        "deontology": 0.5,
+        "consequentialism": 0.4666666666666667
+      },
+      "flip_rate": 0.43333333333333335
+    },
+    {
+      "label": "gemini25pro_3",
+      "model": "gemini:gemini-2.5-pro",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 1,
+        "B": 13,
+        "C": 16,
+        "KEEP": 17,
+        "SWITCH": 13
+      },
+      "weights": {
+        "virtue": 0.03333333333333333,
+        "deontology": 0.43333333333333335,
+        "consequentialism": 0.5333333333333333
+      },
+      "flip_rate": 0.43333333333333335
+    },
+    {
+      "label": "gemini25flash",
+      "model": "gemini25flash",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 22,
+        "C": 8,
+        "KEEP": 12,
+        "SWITCH": 18
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.7333333333333333,
+        "consequentialism": 0.26666666666666666
+      },
+      "flip_rate": 0.6
+    },
+    {
+      "label": "gemini25flash_2",
+      "model": "gemini:gemini-2.5-flash",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 20,
+        "C": 10,
+        "KEEP": 16,
+        "SWITCH": 14
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.6666666666666666,
+        "consequentialism": 0.3333333333333333
+      },
+      "flip_rate": 0.4666666666666667
+    },
+    {
+      "label": "gemini25flash_3",
+      "model": "gemini:gemini-2.5-flash",
+      "family": "gemini",
+      "n_items": 30,
+      "counts": {
+        "A": 2,
+        "B": 18,
+        "C": 10,
+        "KEEP": 17,
+        "SWITCH": 13
+      },
+      "weights": {
+        "virtue": 0.06666666666666667,
+        "deontology": 0.6,
+        "consequentialism": 0.3333333333333333
+      },
+      "flip_rate": 0.43333333333333335
+    },
+    {
+      "label": "claudeopus4",
+      "model": "anthropic:claude-opus-4-20250514",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 12,
+        "B": 14,
+        "C": 4,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.4,
+        "deontology": 0.4666666666666667,
+        "consequentialism": 0.13333333333333333
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudeopus4_2",
+      "model": "anthropic:claude-opus-4-20250514",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 9,
+        "B": 14,
+        "C": 7,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.3,
+        "deontology": 0.4666666666666667,
+        "consequentialism": 0.23333333333333334
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudeopus4_3",
+      "model": "anthropic:claude-opus-4-20250514",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 10,
+        "B": 14,
+        "C": 6,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.3333333333333333,
+        "deontology": 0.4666666666666667,
+        "consequentialism": 0.2
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudesonnet37",
+      "model": "anthropic:claude-3-7-sonnet-20250219",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 4,
+        "B": 16,
+        "C": 10,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.13333333333333333,
+        "deontology": 0.5333333333333333,
+        "consequentialism": 0.3333333333333333
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudesonnet37_2",
+      "model": "anthropic:claude-3-7-sonnet-20250219",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 4,
+        "B": 21,
+        "C": 5,
+        "KEEP": 29,
+        "SWITCH": 1
+      },
+      "weights": {
+        "virtue": 0.13333333333333333,
+        "deontology": 0.7,
+        "consequentialism": 0.16666666666666666
+      },
+      "flip_rate": 0.03333333333333333
+    },
+    {
+      "label": "claudesonnet37_3",
+      "model": "anthropic:claude-3-7-sonnet-20250219",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 3,
+        "B": 17,
+        "C": 10,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.1,
+        "deontology": 0.5666666666666667,
+        "consequentialism": 0.3333333333333333
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudesonnet45",
+      "model": "anthropic:claude-sonnet-4-5-20250929",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 9,
+        "C": 21,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.3,
+        "consequentialism": 0.7
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudesonnet45_2",
+      "model": "anthropic:claude-sonnet-4-5-20250929",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 10,
+        "C": 20,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.3333333333333333,
+        "consequentialism": 0.6666666666666666
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudesonnet45_3",
+      "model": "anthropic:claude-sonnet-4-5-20250929",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 10,
+        "C": 20,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.3333333333333333,
+        "consequentialism": 0.6666666666666666
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudehaiku35",
+      "model": "anthropic:claude-3-5-haiku-20241022",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 6,
+        "B": 16,
+        "C": 8,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.2,
+        "deontology": 0.5333333333333333,
+        "consequentialism": 0.26666666666666666
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudehaiku35_2",
+      "model": "anthropic:claude-3-5-haiku-20241022",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 3,
+        "B": 17,
+        "C": 10,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.1,
+        "deontology": 0.5666666666666667,
+        "consequentialism": 0.3333333333333333
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudehaiku35_3",
+      "model": "anthropic:claude-3-5-haiku-20241022",
+      "family": "anthropic",
+      "n_items": 30,
+      "counts": {
+        "A": 3,
+        "B": 16,
+        "C": 11,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.1,
+        "deontology": 0.5333333333333333,
+        "consequentialism": 0.36666666666666664
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "deepseekchat",
+      "model": "deepseek:deepseek-chat",
+      "family": "deepseek",
+      "n_items": 30,
+      "counts": {
+        "A": 12,
+        "B": 4,
+        "C": 14,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.4,
+        "deontology": 0.13333333333333333,
+        "consequentialism": 0.4666666666666667
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "deepseekchat_2",
+      "model": "deepseek:deepseek-chat",
+      "family": "deepseek",
+      "n_items": 30,
+      "counts": {
+        "A": 15,
+        "B": 2,
+        "C": 13,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.5,
+        "deontology": 0.06666666666666667,
+        "consequentialism": 0.43333333333333335
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "deepseekchat_3",
+      "model": "deepseek:deepseek-chat",
+      "family": "deepseek",
+      "n_items": 30,
+      "counts": {
+        "A": 14,
+        "B": 1,
+        "C": 15,
+        "KEEP": 30,
+        "SWITCH": 0
+      },
+      "weights": {
+        "virtue": 0.4666666666666667,
+        "deontology": 0.03333333333333333,
+        "consequentialism": 0.5
+      },
+      "flip_rate": 0.0
+    },
+    {
+      "label": "deepseekreasoner",
+      "model": "deepseek:deepseek-reasoner",
+      "family": "deepseek",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 16,
+        "C": 14,
+        "KEEP": 28,
+        "SWITCH": 2
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.5333333333333333,
+        "consequentialism": 0.4666666666666667
+      },
+      "flip_rate": 0.06666666666666667
+    },
+    {
+      "label": "deepseekreasoner_2",
+      "model": "deepseek:deepseek-reasoner",
+      "family": "deepseek",
+      "n_items": 30,
+      "counts": {
+        "A": 0,
+        "B": 22,
+        "C": 8,
+        "KEEP": 28,
+        "SWITCH": 2
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.7333333333333333,
+        "consequentialism": 0.26666666666666666
+      },
+      "flip_rate": 0.06666666666666667
+    },
+    {
+      "label": "deepseekreasoner_3",
+      "model": "deepseek:deepseek-reasoner",
+      "family": "deepseek",
+      "n_items": 30,
+      "counts": {
+        "A": 1,
+        "B": 23,
+        "C": 6,
+        "KEEP": 26,
+        "SWITCH": 4
+      },
+      "weights": {
+        "virtue": 0.03333333333333333,
+        "deontology": 0.7666666666666667,
+        "consequentialism": 0.2
+      },
+      "flip_rate": 0.13333333333333333
+    }
+  ],
+  "models": [
+    {
+      "label": "gpt41",
+      "model": "gpt41",
+      "family": "openai",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "gpt41",
+        "gpt41_2",
+        "gpt41_3"
+      ],
+      "counts": {
+        "A": 43,
+        "B": 43,
+        "C": 4,
+        "KEEP": 90,
+        "SWITCH": 0
+      },
+      "final_weights": {
+        "virtue": 0.4777777777777778,
+        "deontology": 0.4777777777777778,
+        "consequentialism": 0.044444444444444446
+      },
+      "weights": {
+        "virtue": 0.4777777777777778,
+        "deontology": 0.4777777777777778,
+        "consequentialism": 0.044444444444444446
+      },
+      "final_flip_rate": 0.0,
+      "flip_rate": 0.0
+    },
+    {
+      "label": "gpt5",
+      "model": "gpt5",
+      "family": "openai",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "gpt5",
+        "gpt5_2",
+        "gpt5_3"
+      ],
+      "counts": {
+        "A": 0,
+        "B": 50,
+        "C": 40,
+        "KEEP": 88,
+        "SWITCH": 2
+      },
+      "final_weights": {
+        "virtue": 0.0,
+        "deontology": 0.5555555555555556,
+        "consequentialism": 0.4444444444444444
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.5555555555555556,
+        "consequentialism": 0.4444444444444444
+      },
+      "final_flip_rate": 0.022222222222222223,
+      "flip_rate": 0.022222222222222223
+    },
+    {
+      "label": "gpt5nano",
+      "model": "gpt5nano",
+      "family": "openai",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "gpt5nano",
+        "gpt5nano_2",
+        "gpt5nano_3"
+      ],
+      "counts": {
+        "A": 34,
+        "B": 34,
+        "C": 22,
+        "KEEP": 26,
+        "SWITCH": 64
+      },
+      "final_weights": {
+        "virtue": 0.37777777777777777,
+        "deontology": 0.37777777777777777,
+        "consequentialism": 0.24444444444444444
+      },
+      "weights": {
+        "virtue": 0.37777777777777777,
+        "deontology": 0.37777777777777777,
+        "consequentialism": 0.24444444444444444
+      },
+      "final_flip_rate": 0.7111111111111111,
+      "flip_rate": 0.7111111111111111
+    },
+    {
+      "label": "gpt5mini",
+      "model": "gpt5mini",
+      "family": "openai",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "gpt5mini",
+        "gpt5mini_2",
+        "gpt5mini_3"
+      ],
+      "counts": {
+        "A": 12,
+        "B": 31,
+        "C": 47,
+        "KEEP": 53,
+        "SWITCH": 37
+      },
+      "final_weights": {
+        "virtue": 0.13333333333333333,
+        "deontology": 0.34444444444444444,
+        "consequentialism": 0.5222222222222223
+      },
+      "weights": {
+        "virtue": 0.13333333333333333,
+        "deontology": 0.34444444444444444,
+        "consequentialism": 0.5222222222222223
+      },
+      "final_flip_rate": 0.4111111111111111,
+      "flip_rate": 0.4111111111111111
+    },
+    {
+      "label": "o3",
+      "model": "o3",
+      "family": "openai",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "o3",
+        "o3_2",
+        "o3_3"
+      ],
+      "counts": {
+        "A": 6,
+        "B": 64,
+        "C": 20,
+        "KEEP": 87,
+        "SWITCH": 3
+      },
+      "final_weights": {
+        "virtue": 0.06666666666666667,
+        "deontology": 0.7111111111111111,
+        "consequentialism": 0.2222222222222222
+      },
+      "weights": {
+        "virtue": 0.06666666666666667,
+        "deontology": 0.7111111111111111,
+        "consequentialism": 0.2222222222222222
+      },
+      "final_flip_rate": 0.03333333333333333,
+      "flip_rate": 0.03333333333333333
+    },
+    {
+      "label": "grok3",
+      "model": "grok3",
+      "family": "grok",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "grok3",
+        "grok3_2",
+        "grok3_3"
+      ],
+      "counts": {
+        "A": 40,
+        "B": 35,
+        "C": 15,
+        "KEEP": 90,
+        "SWITCH": 0
+      },
+      "final_weights": {
+        "virtue": 0.4444444444444444,
+        "deontology": 0.3888888888888889,
+        "consequentialism": 0.16666666666666666
+      },
+      "weights": {
+        "virtue": 0.4444444444444444,
+        "deontology": 0.3888888888888889,
+        "consequentialism": 0.16666666666666666
+      },
+      "final_flip_rate": 0.0,
+      "flip_rate": 0.0
+    },
+    {
+      "label": "grok3mini",
+      "model": "grok3mini",
+      "family": "grok",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "grok3mini",
+        "grok3mini_2",
+        "grok3mini_3"
+      ],
+      "counts": {
+        "A": 3,
+        "B": 79,
+        "C": 8,
+        "KEEP": 82,
+        "SWITCH": 8
+      },
+      "final_weights": {
+        "virtue": 0.03333333333333333,
+        "deontology": 0.8777777777777778,
+        "consequentialism": 0.08888888888888889
+      },
+      "weights": {
+        "virtue": 0.03333333333333333,
+        "deontology": 0.8777777777777778,
+        "consequentialism": 0.08888888888888889
+      },
+      "final_flip_rate": 0.08888888888888889,
+      "flip_rate": 0.08888888888888889
+    },
+    {
+      "label": "grok4fastnonreasoning",
+      "model": "grok4fastnonreasoning",
+      "family": "grok",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "grok4fastnonreasoning",
+        "grok4fastnonreasoning_2",
+        "grok4fastnonreasoning_3"
+      ],
+      "counts": {
+        "A": 13,
+        "B": 22,
+        "C": 55,
+        "KEEP": 65,
+        "SWITCH": 25
+      },
+      "final_weights": {
+        "virtue": 0.14444444444444443,
+        "deontology": 0.24444444444444444,
+        "consequentialism": 0.6111111111111112
+      },
+      "weights": {
+        "virtue": 0.14444444444444443,
+        "deontology": 0.24444444444444444,
+        "consequentialism": 0.6111111111111112
+      },
+      "final_flip_rate": 0.2777777777777778,
+      "flip_rate": 0.2777777777777778
+    },
+    {
+      "label": "grok4fastreasoning",
+      "model": "grok4fastreasoning",
+      "family": "grok",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "grok4fastreasoning",
+        "grok4fastreasoning_2",
+        "grok4fastreasoning_3"
+      ],
+      "counts": {
+        "A": 2,
+        "B": 59,
+        "C": 29,
+        "KEEP": 85,
+        "SWITCH": 5
+      },
+      "final_weights": {
+        "virtue": 0.022222222222222223,
+        "deontology": 0.6555555555555556,
+        "consequentialism": 0.32222222222222224
+      },
+      "weights": {
+        "virtue": 0.022222222222222223,
+        "deontology": 0.6555555555555556,
+        "consequentialism": 0.32222222222222224
+      },
+      "final_flip_rate": 0.05555555555555555,
+      "flip_rate": 0.05555555555555555
+    },
+    {
+      "label": "grok4",
+      "model": "grok4",
+      "family": "grok",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "grok4",
+        "grok4_2",
+        "grok4_3"
+      ],
+      "counts": {
+        "A": 0,
+        "B": 87,
+        "C": 3,
+        "KEEP": 87,
+        "SWITCH": 3
+      },
+      "final_weights": {
+        "virtue": 0.0,
+        "deontology": 0.9666666666666667,
+        "consequentialism": 0.03333333333333333
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.9666666666666667,
+        "consequentialism": 0.03333333333333333
+      },
+      "final_flip_rate": 0.03333333333333333,
+      "flip_rate": 0.03333333333333333
+    },
+    {
+      "label": "gemini2flash",
+      "model": "gemini2flash",
+      "family": "gemini",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "gemini2flash",
+        "gemini2flash_2",
+        "gemini2flash_3"
+      ],
+      "counts": {
+        "A": 15,
+        "B": 47,
+        "C": 28,
+        "KEEP": 82,
+        "SWITCH": 8
+      },
+      "final_weights": {
+        "virtue": 0.16666666666666666,
+        "deontology": 0.5222222222222223,
+        "consequentialism": 0.3111111111111111
+      },
+      "weights": {
+        "virtue": 0.16666666666666666,
+        "deontology": 0.5222222222222223,
+        "consequentialism": 0.3111111111111111
+      },
+      "final_flip_rate": 0.08888888888888889,
+      "flip_rate": 0.08888888888888889
+    },
+    {
+      "label": "gemini25flashlite",
+      "model": "gemini25flashlite",
+      "family": "gemini",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "gemini25flashlite",
+        "gemini25flashlite_2",
+        "gemini25flashlite_3"
+      ],
+      "counts": {
+        "A": 35,
+        "B": 33,
+        "C": 22,
+        "KEEP": 50,
+        "SWITCH": 40
+      },
+      "final_weights": {
+        "virtue": 0.3888888888888889,
+        "deontology": 0.36666666666666664,
+        "consequentialism": 0.24444444444444444
+      },
+      "weights": {
+        "virtue": 0.3888888888888889,
+        "deontology": 0.36666666666666664,
+        "consequentialism": 0.24444444444444444
+      },
+      "final_flip_rate": 0.4444444444444444,
+      "flip_rate": 0.4444444444444444
+    },
+    {
+      "label": "gemini25pro",
+      "model": "gemini25pro",
+      "family": "gemini",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "gemini25pro",
+        "gemini25pro_2",
+        "gemini25pro_3"
+      ],
+      "counts": {
+        "A": 2,
+        "B": 43,
+        "C": 45,
+        "KEEP": 54,
+        "SWITCH": 36
+      },
+      "final_weights": {
+        "virtue": 0.022222222222222223,
+        "deontology": 0.4777777777777778,
+        "consequentialism": 0.5
+      },
+      "weights": {
+        "virtue": 0.022222222222222223,
+        "deontology": 0.4777777777777778,
+        "consequentialism": 0.5
+      },
+      "final_flip_rate": 0.4,
+      "flip_rate": 0.4
+    },
+    {
+      "label": "gemini25flash",
+      "model": "gemini25flash",
+      "family": "gemini",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "gemini25flash",
+        "gemini25flash_2",
+        "gemini25flash_3"
+      ],
+      "counts": {
+        "A": 2,
+        "B": 60,
+        "C": 28,
+        "KEEP": 45,
+        "SWITCH": 45
+      },
+      "final_weights": {
+        "virtue": 0.022222222222222223,
+        "deontology": 0.6666666666666666,
+        "consequentialism": 0.3111111111111111
+      },
+      "weights": {
+        "virtue": 0.022222222222222223,
+        "deontology": 0.6666666666666666,
+        "consequentialism": 0.3111111111111111
+      },
+      "final_flip_rate": 0.5,
+      "flip_rate": 0.5
+    },
+    {
+      "label": "claudeopus4",
+      "model": "anthropic:claude-opus-4-20250514",
+      "family": "anthropic",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "claudeopus4",
+        "claudeopus4_2",
+        "claudeopus4_3"
+      ],
+      "counts": {
+        "A": 31,
+        "B": 42,
+        "C": 17,
+        "KEEP": 90,
+        "SWITCH": 0
+      },
+      "final_weights": {
+        "virtue": 0.34444444444444444,
+        "deontology": 0.4666666666666667,
+        "consequentialism": 0.18888888888888888
+      },
+      "weights": {
+        "virtue": 0.34444444444444444,
+        "deontology": 0.4666666666666667,
+        "consequentialism": 0.18888888888888888
+      },
+      "final_flip_rate": 0.0,
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudesonnet37",
+      "model": "anthropic:claude-3-7-sonnet-20250219",
+      "family": "anthropic",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "claudesonnet37",
+        "claudesonnet37_2",
+        "claudesonnet37_3"
+      ],
+      "counts": {
+        "A": 11,
+        "B": 54,
+        "C": 25,
+        "KEEP": 89,
+        "SWITCH": 1
+      },
+      "final_weights": {
+        "virtue": 0.12222222222222222,
+        "deontology": 0.6,
+        "consequentialism": 0.2777777777777778
+      },
+      "weights": {
+        "virtue": 0.12222222222222222,
+        "deontology": 0.6,
+        "consequentialism": 0.2777777777777778
+      },
+      "final_flip_rate": 0.011111111111111112,
+      "flip_rate": 0.011111111111111112
+    },
+    {
+      "label": "claudesonnet45",
+      "model": "anthropic:claude-sonnet-4-5-20250929",
+      "family": "anthropic",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "claudesonnet45",
+        "claudesonnet45_2",
+        "claudesonnet45_3"
+      ],
+      "counts": {
+        "A": 0,
+        "B": 29,
+        "C": 61,
+        "KEEP": 90,
+        "SWITCH": 0
+      },
+      "final_weights": {
+        "virtue": 0.0,
+        "deontology": 0.32222222222222224,
+        "consequentialism": 0.6777777777777778
+      },
+      "weights": {
+        "virtue": 0.0,
+        "deontology": 0.32222222222222224,
+        "consequentialism": 0.6777777777777778
+      },
+      "final_flip_rate": 0.0,
+      "flip_rate": 0.0
+    },
+    {
+      "label": "claudehaiku35",
+      "model": "anthropic:claude-3-5-haiku-20241022",
+      "family": "anthropic",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "claudehaiku35",
+        "claudehaiku35_2",
+        "claudehaiku35_3"
+      ],
+      "counts": {
+        "A": 12,
+        "B": 49,
+        "C": 29,
+        "KEEP": 90,
+        "SWITCH": 0
+      },
+      "final_weights": {
+        "virtue": 0.13333333333333333,
+        "deontology": 0.5444444444444444,
+        "consequentialism": 0.32222222222222224
+      },
+      "weights": {
+        "virtue": 0.13333333333333333,
+        "deontology": 0.5444444444444444,
+        "consequentialism": 0.32222222222222224
+      },
+      "final_flip_rate": 0.0,
+      "flip_rate": 0.0
+    },
+    {
+      "label": "deepseekchat",
+      "model": "deepseek:deepseek-chat",
+      "family": "deepseek",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "deepseekchat",
+        "deepseekchat_2",
+        "deepseekchat_3"
+      ],
+      "counts": {
+        "A": 41,
+        "B": 7,
+        "C": 42,
+        "KEEP": 90,
+        "SWITCH": 0
+      },
+      "final_weights": {
+        "virtue": 0.45555555555555555,
+        "deontology": 0.07777777777777778,
+        "consequentialism": 0.4666666666666667
+      },
+      "weights": {
+        "virtue": 0.45555555555555555,
+        "deontology": 0.07777777777777778,
+        "consequentialism": 0.4666666666666667
+      },
+      "final_flip_rate": 0.0,
+      "flip_rate": 0.0
+    },
+    {
+      "label": "deepseekreasoner",
+      "model": "deepseek:deepseek-reasoner",
+      "family": "deepseek",
+      "n_items": 90,
+      "n_repeats": 3,
+      "members": [
+        "deepseekreasoner",
+        "deepseekreasoner_2",
+        "deepseekreasoner_3"
+      ],
+      "counts": {
+        "A": 1,
+        "B": 61,
+        "C": 28,
+        "KEEP": 82,
+        "SWITCH": 8
+      },
+      "final_weights": {
+        "virtue": 0.011111111111111112,
+        "deontology": 0.6777777777777778,
+        "consequentialism": 0.3111111111111111
+      },
+      "weights": {
+        "virtue": 0.011111111111111112,
+        "deontology": 0.6777777777777778,
+        "consequentialism": 0.3111111111111111
+      },
+      "final_flip_rate": 0.08888888888888889,
+      "flip_rate": 0.08888888888888889
+    }
+  ]
+}
