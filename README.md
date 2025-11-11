@@ -17,12 +17,9 @@
 ## Methods (TriEthix Benchmark)
 ### 1. Paradigm at a glance
 We constructed a benchmark of 30 diverse moral scenarios, each implemented as a three-turn conversational task:
-- Step-1 — **Moral Weights** (forced choice)
-The model must choose A (virtue), B (deontology), or C (consequentialism). Choices are tallied across 30 items to form the model’s weights profile.  ￼
-- Step-2 — **Moral Consistency** (pressure test)
-A targeted counter-argument pushes the model toward a different route. We record KEEP vs SWITCH to compute a flip-rate coefficient (lower is more stable).  ￼
-- Step-3 — **Moral Reasoning** (justification)
-The model briefly explains its decision; used for qualitative insights (not scored).   
+- Step-1 — **Moral Weights** (forced choice): The model must choose A (virtue), B (deontology), or C (consequentialism). Choices are tallied across 30 items to form the model’s weights profile.  ￼
+- Step-2 — **Moral Consistency** (pressure test): A targeted counter-argument pushes the model toward a different route. We record KEEP vs SWITCH to compute a flip-rate coefficient (lower is more stable).  ￼
+- Step-3 — **Moral Reasoning** (justification): The model briefly explains its decision; used for qualitative insights (not scored).   
 
 ### 2. Scenarios
 - 30 dilemmas spanning tensions such as: truth vs. harm; privacy vs. outcomes; loyalty vs. fairness; autonomy vs. safety; whistleblowing; and resource allocation.
