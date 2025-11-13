@@ -51,6 +51,8 @@ We analyze both within families (model vs model) and between families:
 
 <img src="./reports/manuscript_figures/Figure3.jpg" alt="TriEthix Banner" width="800">
 <img src="./reports/manuscript_figures/Figure4.jpg" alt="TriEthix Banner" width="700">
+<img src="./reports/manuscript_figures/Table1.jpg" alt="TriEthix Banner" width="900"/> 
+
 
 ### 6. Reproducibility
 - All scenarios, adapters, logs, and analysis scripts are open-sourced; the pipeline supports exact reruns and produces figures (radar/bars/family means) and CSV tables for all tests. For full methodological detail—including prompt scaffolds, scenario design rationale, run logging, and all statistical procedures—see Methods §2–3 of the manuscript.
