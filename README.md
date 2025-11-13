@@ -12,7 +12,7 @@
 > **PROJECT'S WEBSITE:**
 > + Info: https://albert-data.com/pages/triethix
 
-<img src="./reports/manuscript_figures/Figure2.jpg" alt="TriEthix Banner" width="900"/>
+<img src="./reports/manuscript_figures/Figure2.jpg" alt="TriEthix Banner" width="900"/> 
 
 ## Methods (TriEthix Benchmark)
 ### 1. Paradigm at a glance
