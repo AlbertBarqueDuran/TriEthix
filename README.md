@@ -50,8 +50,8 @@ We analyze both within families (model vs model) and between families:
   - We control multiplicity with Benjamini–Hochberg FDR (q=0.05) per test block. 
 
 <img src="./reports/manuscript_figures/Figure3.jpg" alt="TriEthix Banner" width="800">
-<img src="./reports/manuscript_figures/Figure4.jpg" alt="TriEthix Banner" width="700">
-<img src="./reports/manuscript_figures/Table1.jpg" alt="TriEthix Banner" width="900"/> 
+<img src="./reports/manuscript_figures/Figure4.jpg" alt="TriEthix Banner" width="800">
+<img src="./reports/manuscript_figures/Table1.jpg" alt="TriEthix Banner" width="800"/> 
 
 
 ### 6. Reproducibility
