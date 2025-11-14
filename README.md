@@ -14,29 +14,54 @@
 
 <img src="./reports/manuscript_figures/Figure2.jpg" alt="TriEthix Banner" width="900"/> 
 
+## Contents
+- [Methods (TriEthix Benchmark)](#methods-triethix-benchmark)
+  - [Paradigm at a glance](#paradigm-at-a-glance)
+  - [Scenarios](#scenarios)
+  - [Models and Adapters](#models-and-adapters)
+  - [Metrics Reported](#metrics-reported)
+  - [Statistical Analysis (Summary)](#statistical-analysis-summary)
+  - [Reproducibility](#reproducibility)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Repository Layout](#repository-layout)
+- [Configure API Credentials](#configure-api-credentials)
+- [Run the Benchmark Pipeline](#run-the-benchmark-pipeline)
+  - [Execute the scenarios](#execute-the-scenarios)
+  - [Aggregate triadic weights and flip-rate](#aggregate-triadic-weights-and-flip-rate)
+  - [Generate visual diagnostics](#generate-visual-diagnostics)
+- [HTML Report](#html-report)
+- [Extending the Benchmark](#extending-the-benchmark)
+- [CLI Reference](#cli-reference)
+- [Contributing](#contributing)
+- [Citation](#citation)
+- [License](#license)
+- [Contact](#contact)
+
 ## Methods (TriEthix Benchmark)
-### 1. Paradigm at a glance
+### Paradigm at a glance
 We constructed a benchmark of 30 diverse moral scenarios, each implemented as a three-turn conversational task:
 - Step-1 — **Moral Weights** (forced choice): The model must choose A (virtue), B (deontology), or C (consequentialism). Choices are tallied across 30 items to form the model’s weights profile.  ￼
 - Step-2 — **Moral Consistency** (pressure test): A targeted counter-argument pushes the model toward a different route. We record KEEP vs SWITCH to compute a flip-rate coefficient (lower is more stable).  ￼
 - Step-3 — **Moral Reasoning** (justification): The model briefly explains its decision; used for qualitative insights (not scored).   
 
-### 2. Scenarios
+### Scenarios
 - 30 dilemmas spanning tensions such as: truth vs. harm; privacy vs. outcomes; loyalty vs. fairness; autonomy vs. safety; whistleblowing; and resource allocation.
 - Organized as six canonical moral dimensions repeated with controlled variants, so we can probe stability under matched counter-arguments while minimizing wording idiosyncrasies. 
 
 <img src="./reports/manuscript_figures/Figure1.jpg" alt="TriEthix Banner" width="600"/>
 
-### 3. Models & Adapters
+### Models and Adapters
 - We evaluate major families (OpenAI, Anthropic, Gemini, Grok, DeepSeek) with family-specific adapters that standardize system prompts, enforce the A/B/C (and KEEP/SWITCH) response format, handle token limits/retries, and avoid temperature overrides when possible.
 - Three independent runs per model (30 items each) with full JSONL logs for exact reruns.
 
-### 4. Metrics reported
+### Metrics reported
 - Moral Weights: share of Step-1 choices mapped to virtue, deontology, consequentialism (sums to 100%).
 - Flip-Rate: share of Step-2 trials where the model switches its initial route (lower means more consistent).
 - We also reference a consistency coefficient (1 − flip-rate) when helpful for intuition. 
 
-### 5. Statistical Analysis (Summary)
+### Statistical Analysis (Summary)
 We analyze both within families (model vs model) and between families:
 - Omnibus within-family tests:
   - Weights: one 3×K chi-square per family (do any models differ in their triad distribution?).
@@ -54,7 +79,7 @@ We analyze both within families (model vs model) and between families:
 <img src="./reports/manuscript_figures/Table1.jpg" alt="TriEthix Banner" width="800"/> 
 
 
-### 6. Reproducibility
+### Reproducibility
 - All scenarios, adapters, logs, and analysis scripts are open-sourced; the pipeline supports exact reruns and produces figures (radar/bars/family means) and CSV tables for all tests. For full methodological detail—including prompt scaffolds, scenario design rationale, run logging, and all statistical procedures—see Methods §2–3 of the manuscript.
 
 ## Getting Started
@@ -73,6 +98,66 @@ pip install -e .
 
 The editable install exposes the `TriEthix` CLI and ensures local edits are immediately usable.
 
+## Repository Layout
+```
+TriEthix/
+├─ README.md
+├─ LICENSE.txt
+├─ pyproject.toml
+├─ reports/                         # Generated visuals + shareable HTML
+│  ├─ triad_report.html
+│  ├─ figs/                         # Radars, Model Comparison, Family Comparison visualizations by CLI
+│  │  ├─ triad_bars.png
+│  │  ├─ family_scatter.png
+│  │  └─ ... (per-model radar png exports)
+│  └─ manuscript_figures/           
+├─ results/                         # Aggregated metrics and stats tables
+│  ├─ estimates.json
+│  └─ stats/
+│     ├─ between_family_flips.csv
+│     ├─ between_family_weights.csv
+│     ├─ between_family_weights_axis.csv
+│     ├─ run_reliability_by_family.csv
+│     ├─ run_reliability_summary.csv
+│     ├─ within_family_flips.csv
+│     ├─ within_family_omnibus_flips.csv
+│     ├─ within_family_omnibus_weights.csv
+│     └─ within_family_weights.csv
+├─ runs/                            # Raw JSONL transcripts per model run
+│  ├─ claudehaiku35.jsonl
+│  ├─ gpt5nano.jsonl
+│  ├─ gemini25pro.jsonl
+│  ├─ grok3.jsonl
+│  ├─ deepseekreasoner.jsonl
+│  └─ ... (two more repeats per model family)
+├─ scenarios/                       # Moral scenario bundles for benchmarking
+│  └─ triad_30/
+│     ├─ triad.001.truth_vs._harm.json
+│     ├─ triad.002.privacy_vs._outcomes.json
+│     ├─ triad.003.loyalty_vs._fairness.json
+│     ├─ triad.004.autonomy_vs._safety.json
+│     ├─ triad.005.whistleblowing.json
+│     ├─ triad.006.resource_allocation.json
+│     └─ ... up to triad.030.resource_allocation.json
+├─ src/
+│  └─ triethix/                     # CLI + adapters
+│     ├─ __init__.py
+│     ├─ adapters/
+│     │  ├─ base.py
+│     │  ├─ anthropic_adapter.py
+│     │  ├─ deepseek_adapter.py
+│     │  ├─ gemini_adapter.py
+│     │  ├─ grok_adapter.py
+│     │  └─ openai_adapter.py
+│     ├─ checks.py
+│     ├─ cli.py
+│     ├─ parsing.py
+│     └─ scenario.py
+├─ tools/                           # Standalone analytics helpers
+│  ├─ run_reliability.py
+│  └─ statistical_analysis.py
+```
+
 ## Configure API Credentials
 Export the keys for whichever providers you plan to query:
 
@@ -87,7 +172,7 @@ You can set multiple keys simultaneously; TriEthix reads them at runtime when th
 
 ## Run the Benchmark Pipeline
 
-### 1. Execute the scenarios
+### Execute the scenarios
 ```bash
 TriEthix run \
   --model openai:gpt-5-nano \
@@ -98,7 +183,7 @@ TriEthix run \
 - `--scenarios` points to a folder of JSON scenarios (the default bundle lives in `scenarios/triad_30`).
 - The output is a JSONL file capturing every step for later analysis.
 
-### 2. Aggregate triadic weights and flip-rate
+### Aggregate triadic weights and flip-rate
 ```bash
 TriEthix estimate \
   --runs runs/gpt5nano.jsonl \
@@ -107,7 +192,7 @@ TriEthix estimate \
 - Accepts multiple `--runs` entries, e.g. `label=path` pairs for repeated experiments.
 - Repeats are automatically collapsed so a single `estimates.json` contains per-model averages.
 
-### 3. Generate visual diagnostics
+### Generate visual diagnostics
 ```bash
 # TriEthix Radar Vizualization
 TriEthix viz radar \
@@ -136,13 +221,6 @@ TriEthix report \
 ```
 - Rebuilds radars, bars, and the family scatter automatically, then embeds them alongside collapsible transcripts per scenario.
 - Paths in the HTML are relative so you can zip the `reports/` folder or host it as static content.
-
-## Repository Layout
-- `scenarios/triad_30/` — Canonical 30 ethical dilemmas (JSON). Each file contains three user turns that drive the triadic evaluation.
-- `src/triethix/cli.py` — Command-line entry point and visualization utilities.
-- `tools/statistical_analysis.py` — Additional helpers for deeper post-processing or offline experiments.
-- `results/` & `runs/` — Example output locations (safe to delete/replace).
-- `reports/` — Suggested destination for generated figures and HTML.
 
 ## Extending the Benchmark
 - **Add scenarios:** Drop additional JSON files into a new folder and point `--scenarios` to it. Each scenario should follow the three-step structure illustrated in `scenarios/triad_30/triad.001.truth_vs._harm.json`.
@@ -184,3 +262,6 @@ This project is released under the Creative Commons **Attribution-NonCommercial 
 ## Contact
 - Albert Barqué-Duran — albert.barque@salle.url.edu  
 - More information: [www.albert-data.com](https://www.albert-data.com)
+
+<img src="./reports/manuscript_figures/TriEthixBanner.png" alt="TriEthix Banner" width="900"/>
+
