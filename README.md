@@ -7,11 +7,12 @@
 > As AI systems grow more capable and autonomous, their alignment with human ethical values becomes increasingly critical. We present TriEthix, a novel evaluation framework that systematically benchmarks large language models (LLMs) across three foundational ethical perspectives in moral philosophy/psychology: virtue ethics, deontology, and consequentialism. Our triadic benchmark poses 30 realistic moral dilemma scenarios to each model in a multi-turn format, forcing a choice aligned with one of the three ethics (Step-1: Moral Weights), then measuring consistency under moral pressure to change that choice (Step-2: Moral Consistency), and finally eliciting the model's justification (Step-3: Moral Reasoning). We evaluate a representative set of current frontier LLMs (across model families and scales) and quantify each model's ethical leaning as a three-dimensional profile (virtue/ deontology/ consequentialism scores), along with a flip-rate consistency coefficient indicating the model's tendency to maintain or reverse its moral stance under pressure. Our results offer the first comprehensive comparative portrait of LLMs' moral tendencies for different models and model families. We observe clear triadic moral profiles and moral consistency coefficients that significantly differ both between and within families. Our results indicate that these variations are due to differences in model scale, reasoning vs. non-reasoning model variants, and the evolution of model generations. Finally, we discuss how these novel triadic moral weights and flip-rate metrics have technical implications for AI Safety, practical guiding policies for AI Governance, and potential frameworks for AI Welfare.
 >
 > **PREPRINT:**
-> + Barque-Duran, A. (2025) **TriEthix: a Triadic Benchmark for Ethical Alignment in Foundation Models.** [arXiv:submit/6971172](https://cdn.shopify.com/s/files/1/0654/1154/7350/files/Barque-Duran_2025_TriEthix.pdf?v=1762793997)
+> + Barque-Duran, A. (2025) **TriEthix: a Triadic Benchmark for Ethical Alignment in Foundation Models.** [Preprint Available](https://cdn.shopify.com/s/files/1/0654/1154/7350/files/Barque-Duran_2025_TriEthix.pdf?v=1762793997)
 >
 > **PROJECT'S WEBSITE:**
-> + Info: https://albert-data.com/pages/triethix
+> Interactive Results + Info: https://albert-data.com/pages/triethix
 
+<img src="./reports/manuscript_figures/TriEthixGIF.gif" alt="TriEthix Banner" width="900"/>
 <img src="./reports/manuscript_figures/Figure2.jpg" alt="TriEthix Banner" width="900"/> 
 
 ## Contents
