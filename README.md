@@ -10,7 +10,7 @@
 > + Barque-Duran, A. (2025) **TriEthix: a Triadic Benchmark for Ethical Alignment in Foundation Models.** [Preprint Available](https://cdn.shopify.com/s/files/1/0654/1154/7350/files/Barque-Duran_2025_TriEthix.pdf?v=1762793997)
 >
 > **PROJECT'S WEBSITE:**
-> Interactive Results + Info: https://albert-data.com/pages/triethix
+> + Interactive Results + Info: https://albert-data.com/pages/triethix
 
 <img src="./reports/manuscript_figures/TriEthixGIF.gif" alt="TriEthix Banner" width="900"/>
 <img src="./reports/manuscript_figures/Figure2.jpg" alt="TriEthix Banner" width="900"/> 
